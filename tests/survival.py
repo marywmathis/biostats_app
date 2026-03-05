@@ -47,7 +47,7 @@ def run_cox_regression(df, duration_col, event_col):
     else:
         interpretation = "No covariates significantly associated with survival (p ≥ 0.05)."
 
-    return {
+    return 
         "hazard_ratios": summary.to_dict(),
         "interpretation": interpretation
-    }
+    
